@@ -32,12 +32,12 @@ const renderApp = (Component) => {
 renderApp(App);
 
 if (module && module.hot) {
-  module.hot.accept('./app', () => {
-    const NextRootContainer = require('./app');
+  module.hot.accept('./App', () => {
+    const NextRootContainer = require('./App');
     renderApp(NextRootContainer);
   });
 
-  module.hot.accept('./reducers', () => {
+  module.hot.accept('./reducer', () => {
     const nextReducer = require('./reducer/index').default;
     store.replaceReducer(nextReducer);
   });
