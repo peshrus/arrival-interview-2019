@@ -7,7 +7,7 @@ import {applyMiddleware, compose, createStore} from 'redux';
 import reduxThunk from 'redux-thunk';
 import '../public/favicon.ico'
 import {messageToActionAdapter} from './action/arrival';
-import App from './app';
+import App from './App';
 import './index.css';
 import websocket from './middleware/websocket';
 import reducers from './reducer';
