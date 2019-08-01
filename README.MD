@@ -1,4 +1,4 @@
-[![Travis CI](https://travis-ci.org/peshrus/arrival.svg?branch=master)](https://travis-ci.org/peshrus/arrival)
+[![Travis CI](https://travis-ci.org/peshrus/arrival-interview-2019.svg?branch=master)](https://travis-ci.org/peshrus/arrival-interview-2019)
 # [arrival.com](https://arrival.com): [vacancies](https://spb.hh.ru/employer/1751001#vacancy-list)
 ## [The Task](./_input/java-test.txt)
 
